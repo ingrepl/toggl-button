@@ -94,7 +94,9 @@
     "*://www.assembla.com/*",
     "*://*.salesforce.com/*",
     "*://*.draftin.com/*",
-    "*://*.fogbugz.com/*"
+    "*://*.fogbugz.com/*",
+    "*://support.ingre.pl/*",
+    "*://jira.ingre.pl/*"
   ],
   "content_scripts": [
     {
@@ -159,7 +161,9 @@
         "*://www.assembla.com/*",
         "*://*.salesforce.com/*",
         "*://*.draftin.com/*",
-        "*://*.fogbugz.com/*"
+        "*://*.fogbugz.com/*",
+        "*://support.ingre.pl/*",
+        "*://jira.ingre.pl/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -237,7 +241,9 @@
       "matches": [
         "*://*.atlassian.net/*",
         "*://*.atlassian.com/*",
-        "*://*.jira.com/*"
+        "*://*.jira.com/*",
+        "*://support.ingre.pl/*",
+        "*://jira.ingre.pl/*"
       ],
       "js": ["scripts/content/jira.js"]
     },
