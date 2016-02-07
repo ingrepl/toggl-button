@@ -1,14 +1,32 @@
-# Toggl Timer Developer Challenge of 2016
-
-Here for the contest? Great! Just fork the Toggl Button project and off you go!
-
-Don't know about the campaign? Here's our awesome info page with everything you need to know: [https://toggl.com/toggl-developer-challenge](https://toggl.com/toggl-developer-challenge)
-
-Not sure where to start? Check out this list of requested integrations: [https://github.com/toggl/toggl-button/wiki/User-requested-buttons](https://github.com/toggl/toggl-button/wiki/User-requested-buttons)
-
-# Toggl Button Chrome extension
+# Custom Toggl Button Chrome extension for `Ingre`
 
 Add Toggl one-click time tracking to popular web tools.
+
+## Installing from Source
+
+1.  Clone the repository: `git clone git://github.com/ingre/toggl-button`
+2.  Navigate to `chrome://extensions/` and enable "Developer Mode".
+3.  Choose "Load unpacked extension..."
+4.  Open the src directory in the toggl-button directory you just cloned and follow the prompts to install.
+
+## Using the Button
+1.  Log in to your [Toggl][1] account and keep yourself logged in (no need to keep the tab open).
+2.  Go to your [TeamWeek][2], [Pivotal Tracker][3], [Github][4], [Asana][5], [Unfuddle][6], [Gitlab][7],
+[Trello][8], [Worksection][9], [Redbooth][10], [Podio][11], [Basecamp][12], [JIRA][13], [Producteev][14],
+[Bitbucket][15], [Stifer][16], [Google Docs][17], [Redmine][18], [YouTrack][19], [CapsuleCRM][20],
+[Xero][21], [Zendesk][22], [Any.do][23], [Todoist][24], [Trac][25], [Wunderlist][26], [Toodledo][27], [Teamwork.com][28], [Google Mail][29], [Taiga][30], [HabitRPG][31], [Axosoft][32], [Countersoft Gemini][33], [Drupal][34], [Esa][35], [Help Scout][36], [Flow][37], [Sprintly][38], [Google Calendar][39], [TestRail][40], [Bugzilla][41], [Breeze][42], [BamBam][43], [GQueue][44], [Wrike][45], [Assembla][46], [Waffle][47], [Codeable][48], [Eventum][49], [Salesforce][50], [Draftin][51], [FogBugz][52] account and start your Toggl timer there.
+
+Or start entry from the extension icon menu
+
+3. To edit the running time entry
+  - Edit entry details from the post start popup that is shown right after you click the "Start timer" button
+  - Edit entry details from the extesnion icon menu by clicking the running duration
+
+4. To stop the current running timer:
+  - Press the button again
+  - Stop the entry from the extension icon menu
+  - Start another time entry inside your account.
+  - Go to Toggl to stop or edit your time entry.
 
 ## Compatible services
   - [TeamWeek][2]
@@ -63,49 +81,6 @@ Add Toggl one-click time tracking to popular web tools.
   - [Draftin][51]
   - [FogBugz][52]
 
-## Installing from the Web Store
-
-https://chrome.google.com/webstore/detail/toggl-button/oejgccbfbmkkpaidnkphaiaecficdnfn
-
-## Installing from Source
-
-1.  Clone the repository: `git clone git://github.com/toggl/toggl-button`
-2.  Navigate to `chrome://extensions/` and enable "Developer Mode".
-3.  Choose "Load unpacked extension..."
-4.  Open the src directory in the toggl-button directory you just cloned and follow the prompts to install.
-
-## Change log
-
-List of all the changes and added features can be found at http://toggl.github.io/toggl-button
-
-## Using the Button
-1.  Log in to your [Toggl][1] account and keep yourself logged in (no need to keep the tab open).
-2.  Go to your [TeamWeek][2], [Pivotal Tracker][3], [Github][4], [Asana][5], [Unfuddle][6], [Gitlab][7],
-[Trello][8], [Worksection][9], [Redbooth][10], [Podio][11], [Basecamp][12], [JIRA][13], [Producteev][14],
-[Bitbucket][15], [Stifer][16], [Google Docs][17], [Redmine][18], [YouTrack][19], [CapsuleCRM][20],
-[Xero][21], [Zendesk][22], [Any.do][23], [Todoist][24], [Trac][25], [Wunderlist][26], [Toodledo][27], [Teamwork.com][28], [Google Mail][29], [Taiga][30], [HabitRPG][31], [Axosoft][32], [Countersoft Gemini][33], [Drupal][34], [Esa][35], [Help Scout][36], [Flow][37], [Sprintly][38], [Google Calendar][39], [TestRail][40], [Bugzilla][41], [Breeze][42], [BamBam][43], [GQueue][44], [Wrike][45], [Assembla][46], [Waffle][47], [Codeable][48], [Eventum][49], [Salesforce][50], [Draftin][51], [FogBugz][52] account and start your Toggl timer there.
-
-Or start entry from the extension icon menu
-
-3. To edit the running time entry
-  - Edit entry details from the post start popup that is shown right after you click the "Start timer" button
-  - Edit entry details from the extesnion icon menu by clicking the running duration
-
-4. To stop the current running timer:
-  - Press the button again
-  - Stop the entry from the extension icon menu
-  - Start another time entry inside your account.
-  - Go to Toggl to stop or edit your time entry.
-
-## Custom domains
-If you use a setup, where one of the supported services is on a custom domain you can customize the extension to fit your needs. Here is a step by step guide on how to [add custom domain][98] to the extension.
-
-## Contributing
-Want to contribute? Great! Just fork the project, make your changes and open a [Pull Request][99]
-
-When adding new integrations please use `git squash` and merge all your commits into one commit. This keeps the git log more compact and clear.
-
-Don't know how to start? Just check out the [user requested services][97] that have not yet been implemented, pick one and start hacking.
 
 [1]: https://www.toggl.com/
 [2]: https://teamweek.com/
